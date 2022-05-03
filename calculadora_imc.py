@@ -11,14 +11,14 @@ height_un = (input('Wich unit of height do you prefer?? 1 - Meters or 2 - Inches
 if weight_un == '1':
     weight_kg = float(input("What's your weight? "))
 
-elif weight_un == '2':
+else:
     weight_lbs = float(input("What's your weight? "))
 
     
 if height_un == '1':
     height_meters = float(input("What's your height? "))
 
-elif height_un == '2':
+else:
     height_inches = float(input("What's your height? "))
 
 
