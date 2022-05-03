@@ -5,7 +5,7 @@ answer = input(f"Hello {name}, Welcome! Let's ask some questions to know your BM
 #   COLLECTING INFORMATION: AGE, WEIGHT (KGS and LBS), HEIGHT (MT and INC)
 age = int(input('How old are you? '))
 weight_un = int(input('Which unit of weight do you prefer? 1 - Kilograms or 2 - Pounds '))
-height_un = int(input('Wich unit of height do you prefer?? 1 - Meters or 2 - Inches '))
+height_un = int(input('Which unit of height do you prefer?? 1 - Meters or 2 - Inches '))
 
 
 weight = float(input("What's your weight? "))
@@ -24,22 +24,22 @@ else:
 # CLASSIFY
 
 if bmi <= 18.5:
-    rank = 'magreza'
+    rank = 'Underweight\nHealth Risk: Minimal'
 elif bmi > 18.5 and bmi < 25:
-    rank = 'saudavel'
+    rank = 'Normal Weight\nHealth Risk: Minimal'
 elif bmi >= 25 and bmi < 30:
-    rank = 'sobrepeso'
+    rank = 'Overweight\nHealth Risk: Increased!!'
 elif bmi >= 30 and bmi < 35:
-    rank = 'obesidade grau 1'
+    rank = 'Obese\nHealth Risk: High!!!'
 elif bmi >= 35 and bmi < 40:
-    rank = 'obesidade severa grau 2'
+    rank = 'Severely Obese\nHealth Risk: Very High!!!!'
 else:
-    rank = 'gordo baleia saco de areia'
+    rank = 'Morbidly Obese\nHealth Risk: Extremely High!!!!!'
 
 
 #    SHOW THE RESULTS
 print(f'Name: {name}')
 print(f'Age: {age} years')
 print(f'BMI: {bmi}.')
-print(f'Classification: {rank}.')
+print(f'Classification: {rank}')
 
