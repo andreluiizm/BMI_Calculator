@@ -1,6 +1,6 @@
 
 
-## First-Exercise ->> IBM-Calculator
+## First-Exercise ->> BMI-Calculator
 
 This program receives weight and height data and calculates your BMI (Body Mass Index), as well as shows the level of risk to your health.
 
