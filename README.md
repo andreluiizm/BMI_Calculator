@@ -12,7 +12,7 @@ Under 18.5 - Underweight
 
 25 - 29.9 - Overweight
 	
-30 - 34.9	- Obese	High
+30 - 34.9	- High Obese
 
 35 - 39.9	- Severely Obese	
 
